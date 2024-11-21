@@ -2,7 +2,7 @@
 .container{
     width: min(100%, 1440px);
     margin: auto;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 .box {
     width: 60%;
