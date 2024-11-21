@@ -1,0 +1,43 @@
+/* container */
+.container{
+    width: min(100%, 1440px);
+    margin: auto;
+    padding-top: 50px;
+}
+.box {
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+h1{
+    font-size: 40px; 
+    font-weight: 900; 
+    color: #ff0000;
+}
+
+p{
+    text-align: center;
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+
+    font-size: 25px;
+    color: white;
+}
